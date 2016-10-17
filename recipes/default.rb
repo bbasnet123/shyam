@@ -8,7 +8,7 @@ end
 service 'nginx' do
   action [ :enable, :start ]
 end
-cookbook_file "/usr/share/nginx/html/index.html" do
+cookbook_file "/usr/share/shyam/File/index.html" do
   source "index.html"
   mode "0644"
 end
